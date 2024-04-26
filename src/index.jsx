@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client';
 
 function App() {
-  return <h1>Rtest</h1>;
+  return <h1>Test</h1>;
 }
 
 const container = document.getElementById('root');
