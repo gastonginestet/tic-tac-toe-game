@@ -19,6 +19,10 @@ module.exports = {
           loader: 'babel-loader',  // Ensure Babel can handle JSX via presets
         },
       },
+      {
+        test: /\.css$/,  // New rule for CSS files
+        use: ['style-loader', 'css-loader']  // Apply both loaders
+      }
     ],
   },
   plugins: [
